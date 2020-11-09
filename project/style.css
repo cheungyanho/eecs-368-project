@@ -1,0 +1,59 @@
+body {
+ background-image: url("https://i.stack.imgur.com/jGlzr.png");
+ background-color: #cccccc;
+}
+
+.board
+{
+  display: flex;
+  width: 420px;
+  height: 360px;
+  border: 1px solid;
+  flex-wrap: wrap;
+}
+
+.board div
+{
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.emptyline
+{
+  width: 420px;
+  height: 60px;
+}
+
+.button
+{
+  display: flex;
+  width: 420px;
+  height: 60px;
+}
+
+.button div
+{
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+}
+
+.player1
+{
+  background-color: red;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.player2
+{
+  background-color: yellow;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
